@@ -99,10 +99,10 @@ Por ejemplo un web component puede ser utilizado en un aplicación de React.
 
 Está ligado al DOM y es parte del [Critical Rendering Path](https://developer.mozilla.org/en-US/docs/Web/Performance/Critical_rendering_path).
 
-<img src="https://www.figma.com/file/EnUFfZfO00n31feUkHOLmz/Ciclo-de-vida-de-un-Web-Component?node-id=0%3A1"
+<img src="https://1drv.ms/u/s!AijlMZqWsyWebeAYQBVGkr6j2oU"
      alt="Ciclo de vida de un web Component"
      style="float: left; margin-right: 10px;" />
-     
+
 ## Web Components usando Custom Elements
 
 El primer paso es maquetar el componente en un 
