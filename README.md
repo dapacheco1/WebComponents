@@ -76,7 +76,7 @@ por un guión.
 ``<my-custom-tag></my-custom-tag>``
 
 - Shadow DOM: Permite que el código que está dentro de
-esta etiqueta no conviva con lo que está afuera. Esto evita
+esta etiqueta personalizada no conviva con lo que está afuera. Esto evita
 que exista sobreescritura de estilos.
 
 La combinación del Shadow DOM y customElements da como
@@ -98,8 +98,11 @@ Por ejemplo un web component puede ser utilizado en un aplicación de React.
 ### Ciclo de vida de un componente
 
 Está ligado al DOM y es parte del [Critical Rendering Path](https://developer.mozilla.org/en-US/docs/Web/Performance/Critical_rendering_path).
-//imagen aqui
 
+<img src="https://www.figma.com/file/EnUFfZfO00n31feUkHOLmz/Ciclo-de-vida-de-un-Web-Component?node-id=0%3A1"
+     alt="Ciclo de vida de un web Component"
+     style="float: left; margin-right: 10px;" />
+     
 ## Web Components usando Custom Elements
 
 El primer paso es maquetar el componente en un 
@@ -146,7 +149,7 @@ class myElement extends HTMLElement{
 }
 ```
 
-Se crea el método **calledCallback()**, en el cual
+Se crea el método **connectedCallback()**, en el cual
 se renderiza todos los elementos HTML que se definieron
 previamente.
 
@@ -174,7 +177,7 @@ Finalmente, se utiliza **customElements** para definir
 el nombre de la etiqueta HTML 5 que representará al componente.
 
 Esto se lo realiza usando el método **define**, el cual requiere dos
-parámetros. El primero parámetro es el nombre de la etiqueta y 
+parámetros. El primer parámetro es el nombre de la etiqueta y 
 el segundo parámetro es la clase que se definió.
 
 Todo esto se define **FUERA** de la clase creada.
