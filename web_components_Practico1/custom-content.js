@@ -8,42 +8,28 @@ class customContent extends HTMLElement{
         this.render();
     }
 
-    //HTML
     getTemplate(){
         const template = document.createElement("template");
         template.innerHTML = `
-            ${this.getStyles()}
+            ${this.getStyle()}
             <main>
-                <h2>Articulo con custom Elements y template</h2>
-                <article>
-                    <p>
-                        Espero que la calificacion de aqui sea 6.67
-                    </p>
-                </article>
+                <h3>Custom content</h3>
+                <section>
+                    This is an important section
+                </section>
             </main>
         `;
-
         return template;
     }
 
-    //CSS
-    getStyles(){
+    getStyle(){
         return `
             <style>
                 main{
                     background-color:papayawhip;
+                    box-shadow:0 0 12px black;
                 }
 
-                h2{
-                    color:blue;
-                    font-family: sans-serif;
-                }
-
-                article{
-                    box-shadow: 0 0 12px black;
-                }
-
-                
             </style>
         `;
     }
@@ -51,7 +37,6 @@ class customContent extends HTMLElement{
     render(){
         this.appendChild(this.getTemplate().content.cloneNode(true));
     }
-
 }
 
 customElements.define("custom-content",customContent);

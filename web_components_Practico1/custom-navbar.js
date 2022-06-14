@@ -1,4 +1,6 @@
+
 class customNavbar extends HTMLElement{
+
     constructor(){
         super();
     }
@@ -7,44 +9,26 @@ class customNavbar extends HTMLElement{
         this.render();
     }
 
-    //HTML
     getTemplate(){
-        const navbar = document.createElement("nav");
-        navbar.innerHTML = `
-        ${this.getStyles()}
-        
+        const template = document.createElement("nav");
+        template.innerHTML = `
+            ${this.getStyle()}
             <ul>
-                <li>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#">Contact Us</a>
-                </li>
-            <ul>
-        
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
         `;
-        return navbar;
+        return template;
     }
 
-    //CSS
-    getStyles(){
+    getStyle(){
         return `
             <style>
                 ul{
                     list-style:none;
                 }
-
                 li{
                     display:inline-block;
-                    padding: 20px;
-                }
-
-                a:hover{
-                    background-color:red;
-                }
-
-                a{
-                    text-decoration:none;
                 }
             </style>
         `;
@@ -55,4 +39,4 @@ class customNavbar extends HTMLElement{
     }
 }
 
-customElements.define('custom-navbar',customNavbar);
+customElements.define("custom-navbar",customNavbar);

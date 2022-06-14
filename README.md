@@ -99,7 +99,7 @@ Por ejemplo un web component puede ser utilizado en un aplicación de React.
 
 Está ligado al DOM y es parte del [Critical Rendering Path](https://developer.mozilla.org/en-US/docs/Web/Performance/Critical_rendering_path).
 
-<img src="https://1drv.ms/u/s!AijlMZqWsyWebeAYQBVGkr6j2oU"
+<img src="https://onedrive.live.com/?authkey=%21APBX9wr3DBr7CUY&cid=9E25B3969A31E528&id=9E25B3969A31E528%21109&parId=9E25B3969A31E528%21108&o=OneUp"
      alt="Ciclo de vida de un web Component"
      style="float: left; margin-right: 10px;" />
 
@@ -244,5 +244,8 @@ HTML 5 con la siguiente estructura.
 
 El resultado final debería ser el siguiente:
 
-//imagen aqui
+![Ciclo de vida de un Web Component]("https://imgur.com/g5fJh56").
+
+## Web Components usando Custom Elements
+
 
