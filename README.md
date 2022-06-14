@@ -180,7 +180,7 @@ el segundo parámetro es la clase que se definió.
 
 Todo esto se define **FUERA** de la clase creada.
 
-```
+```JavaScript
 /*
     Crear web component usando web api custom elements 
 */
@@ -224,7 +224,7 @@ customElements.define("my-element",myElement);
 Para comprobar el funcionamiento del componente, se crea un documento
 HTML 5 con la siguiente estructura.
 
-```
+```HTML
 <!DOCTYPE html>
 <html lang="es">
 <head>
