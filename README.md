@@ -244,7 +244,7 @@ HTML 5 con la siguiente estructura.
 
 El resultado final debería ser el siguiente:
 
-![Ciclo de vida de un Web Component](https://github.com/dapacheco1/WebComponents/tree/main/resources/img/ciclo_vida.png).
+![Ciclo de vida de un Web Component](https://github.com/dapacheco1/WebComponents/blob/main/resources/img/ciclo_vida.png).
 
 ## Web Components usando Custom Elements
 
