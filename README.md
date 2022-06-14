@@ -244,7 +244,7 @@ HTML 5 con la siguiente estructura.
 
 El resultado final debería ser el siguiente:
 
-![Ciclo de vida de un Web Component]("https://imgur.com/g5fJh56").
+![Ciclo de vida de un Web Component](https://imgur.com/g5fJh56).
 
 ## Web Components usando Custom Elements
 
